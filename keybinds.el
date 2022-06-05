@@ -1,4 +1,6 @@
-(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
+;;keybindings
+
+;;Evil (emacs vi layer)
 (setq evil-want-integration t)
 (setq evil-want-keybinding nil)
 (use-package evil
@@ -11,9 +13,9 @@
   (setq evil-want-C-i-jump nil)
   :config
   (evil-mode 1)
- ;; (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
- ;; (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
- (evil-set-leader 'normal (kbd "SPC"))
+  (define-key evil-insert-state-map (kbd "C-g") 'evil-normal-state)
+  (define-key evil-insert-state-map (kbd "C-h") 'evil-delete-backward-char-and-join)
+  (evil-set-leader 'normal (kbd "SPC"))
   ;; Use visual line motions even outside of visual-line-mode buffers
   (evil-global-set-key 'motion "j" 'evil-next-visual-line)
   (evil-global-set-key 'motion "k" 'evil-previous-visual-line)
@@ -25,3 +27,18 @@
   :after evil
   :config
   (evil-collection-init))
+
+
+;;general keybinds
+
+(use-package cua
+  :init (cua-mode t)
+  :bind (("<leader> k c" . cua-copy-region)
+         ("<leader> k p" . cua-paste)))
+(use-package eval
+  :bind (("<leader> h r r" . eval-buffer))) ;;doom-emacs style baby!
+
+(global-set-key (kbd "<leader> b k") 'kill-buffer)
+
+
+
