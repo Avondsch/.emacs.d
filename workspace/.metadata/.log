@@ -1,0 +1,2314 @@
+!SESSION 2022-06-10 17:48:06.017 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+Command-line arguments:  -data /home/avondsch/.emacs.d/workspace/ --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:08.958
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.352
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.429
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.437
+!MESSAGE Initializing Java Language Server 1.5.0.202110191539
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.530
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/com.microsoft.java.test.plugin-0.28.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.534
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/com.microsoft.jdtls.ext.core-0.5.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.536
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.cfr-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.538
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.common-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.541
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.fernflower-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.543
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.procyon-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.550
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/io.projectreactor.reactor-core.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.553
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/java.debug.plugin.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.555
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-commons.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.557
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-extension.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.559
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.562
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.564
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.568
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.571
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.574
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.580
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.583
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.586
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.589
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.592
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.594
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.597
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.599
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.601
+!MESSAGE Installed reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.reactivestreams.reactive-streams.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.828
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-commons.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.830
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/io.projectreactor.reactor-core.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.831
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.832
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.833
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.834
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.835
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.reactivestreams.reactive-streams.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.835
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.836
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.fernflower-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.837
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.838
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.838
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.839
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/jdt-ls-extension.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.839
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.cfr-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.840
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.841
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.842
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.843
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.844
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/dg.jdt.ls.decompiler.procyon-0.0.2-201802221740.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.845
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.847
+!MESSAGE Started reference:file:/home/avondsch/.emacs.d/.cache/lsp/eclipse.jdt.ls/bundles/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.884
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.885
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.886
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.886
+!MESSAGE Non-Static Commands: [sts.java.addClasspathListener, sts.java.removeClasspathListener]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.887
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.887
+!MESSAGE Non-Static Commands: [sts.java.javadoc]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.888
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.889
+!MESSAGE Non-Static Commands: [sts.java.type]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.889
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.890
+!MESSAGE Non-Static Commands: [sts.java.javadocHoverLink]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.891
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.891
+!MESSAGE Non-Static Commands: [sts.java.location]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.892
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.892
+!MESSAGE Non-Static Commands: [sts.java.search.packages, sts.java.search.types]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.893
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.894
+!MESSAGE Non-Static Commands: [sts.java.hierarchy.supertypes, sts.java.hierarchy.subtypes]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.894
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.895
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.896
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.896
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.897
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.898
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.912
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.926
+!MESSAGE Wait for AutoBuildOffJob end 14ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.927
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.928
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.930
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.931
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:09.989
+!MESSAGE Started org.eclipse.buildship.core 58ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:10.926
+!MESSAGE LoadingGradleVersionJob finished 936ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:10.970
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:11.083
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:11.175
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:12.247
+!MESSAGE Workspace initialized in 1316ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:12.283
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:12.319
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:12.336
+!MESSAGE >> New configuration: {java={codeGeneration={toString={limitElements=0.0, listArrayContents=true, skipNullValues=false, codeStyle=STRING_CONCATENATION, template=${object.className} [${member.name()}=${member.value}, ${otherMembers}]}, generateComments=false, useBlocks=false, hashCodeEquals={useInstanceof=false, useJava7Objects=false}}, format={onType={enabled=true}, comments={enabled=true}, enabled=true, tabSize=4.0, insertSpaces=false}, progressReports={enabled=true}, foldingRange={enabled=true}, completion={importOrder=[java, javax, com, org], favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], guessMethodArguments=true, overwrite=true, enabled=true, filteredTypes=[java.awt.*, com.sun.*], maxResults=0.0}, maxConcurrentBuilds=1.0, autobuild={enabled=true}, selectionRange={enabled=true}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, offline={enabled=false}}}, saveActions={organizeImports=false}, implementationsCodeLens={enabled=false}, signatureHelp={enabled=true}, referencesCodeLens={enabled=false}, maven={downloadSources=false, updateSnapshots=false}, trace={server=off}, configuration={updateBuildConfiguration=automatic, checkProjectSettingsExclusions=true}, errors={incompleteClasspath={severity=warning}}, dependency={packagePresentation=flat}, project={importHint=true, importOnFirstTimeStartup=automatic, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .metadata, archetype-resources, META-INF/maven]}, imports={gradle={wrapper={checksums=[]}}}, sources={organizeImports={staticStarThreshold=99.0, starThreshold=99.0}}, server={launchMode=Hybrid}, showBuildStatusOnStart={enabled=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:12.339
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:12.394
+!MESSAGE Try to create an invisible project for the workspace /home/avondsch/projects/java/sample
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:12.395
+!MESSAGE Creating the Java project sample_db56b08
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.184
+!MESSAGE Finished creating the Java project sample_db56b08
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.192
+!MESSAGE Successfully created a workspace invisible project sample_db56b08
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.222
+!MESSAGE >> Updating classpath for project sample_db56b08
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.310
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.324
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.327
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.334
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.339
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.364
+!MESSAGE Reconciled 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.378
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.382
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.386
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.390
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.396
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.399
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.402
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.406
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.408
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.411
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.413
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.414
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.414
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.447
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.448
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.450
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.452
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.460
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.518
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.521
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.524
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.988
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.989
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:13.990
+!MESSAGE Validated 1. Took 567 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:14.007
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:14.016
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:14.021
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:14.023
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:14.155
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:21.690
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:21.692
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:25.269
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:25.270
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:27.675
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:27.676
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:28.049
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:28.204
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:28.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:28.607
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:28.761
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:28.883
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:28.982
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:29.183
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:29.221
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:29.307
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:29.450
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:29.607
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:29.824
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.095
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.551
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.597
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.625
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.656
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.686
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.717
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:30.747
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:31.135
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:31.372
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:31.518
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:31.720
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:31.722
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:31.869
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:31.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.190
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.193
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.444
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.494
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.710
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.863
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.864
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.865
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.990
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.993
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.996
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:32.998
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.000
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.001
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.409
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.500
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.622
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.740
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.760
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.961
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:33.963
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:34.163
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:34.167
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:34.449
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:34.669
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.076
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.174
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.175
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.176
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.176
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.181
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.494
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.494
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:35.495
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:36.631
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:36.833
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:36.836
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.087
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.137
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.353
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.509
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.509
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.510
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.671
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.674
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.676
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.679
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.681
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:37.682
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.087
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.191
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.192
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.193
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.194
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.199
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.312
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.716
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.816
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.818
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.819
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.820
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:38.826
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:39.129
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:39.130
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:39.130
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:39.585
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:39.683
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:39.877
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.038
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.240
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.280
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.282
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.289
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.291
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.296
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.297
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.302
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.304
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.459
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.464
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.557
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.967
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:40.972
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:41.087
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:41.267
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:41.401
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:41.670
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:41.827
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:41.970
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:42.099
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:42.334
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:42.730
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:42.850
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:42.979
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.384
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.484
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.485
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.485
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.486
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.494
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.849
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.849
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:43.850
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.009
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.464
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.514
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.516
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.517
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.517
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.524
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.530
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:44.935
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.035
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.036
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.036
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.037
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.044
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.197
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.201
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.292
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.704
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.704
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.705
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.705
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.711
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:45.735
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:46.149
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:46.149
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:46.149
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:46.851
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:46.854
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2022-06-10 17:48:46.855
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.getChar(AbstractDocument.java:783)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getChar(SynchronizableDocument.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.getRegion(FormatterHandler.java:245)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.format(FormatterHandler.java:225)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.onTypeFormatting(FormatterHandler.java:208)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$21(JDTLanguageServer.java:723)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.032
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.034
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2022-06-10 17:48:47.035
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.getChar(AbstractDocument.java:783)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getChar(SynchronizableDocument.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.getRegion(FormatterHandler.java:245)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.format(FormatterHandler.java:225)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.onTypeFormatting(FormatterHandler.java:208)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$21(JDTLanguageServer.java:723)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.209
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.211
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2022-06-10 17:48:47.212
+!MESSAGE BadLocationException
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.AbstractDocument.getChar(AbstractDocument.java:783)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getChar(SynchronizableDocument.java:141)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.getRegion(FormatterHandler.java:245)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.format(FormatterHandler.java:225)
+	at org.eclipse.jdt.ls.core.internal.handlers.FormatterHandler.onTypeFormatting(FormatterHandler.java:208)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$21(JDTLanguageServer.java:723)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.661
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.715
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.716
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.717
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.717
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:47.723
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:48.125
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:48.125
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:48.126
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:49.089
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:49.089
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:49.090
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:49.682
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:49.685
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:49.686
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.118
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.120
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.253
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.255
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.412
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.414
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.565
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.567
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.710
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.712
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.850
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.852
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.974
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:50.976
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:51.097
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:51.099
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:51.500
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:51.966
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:51.966
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:51.966
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:53.015
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:53.016
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:53.022
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:54.229
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:54.413
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:54.560
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:54.686
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:54.859
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:54.999
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:55.104
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:55.448
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:55.527
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:55.793
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:55.852
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:56.051
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:56.190
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:56.353
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:56.609
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:56.707
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:56.867
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:56.987
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.107
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.322
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.492
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.612
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.673
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.874
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.885
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:57.902
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:58.364
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:58.408
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:58.410
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:58.417
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:58.833
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:58.833
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:48:58.834
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:02.882
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:03.825
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.230
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.331
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.332
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.340
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.542
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.545
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.552
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:04.663
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.117
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.170
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.171
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.178
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.617
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.617
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.617
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.874
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.876
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:05.878
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:06.194
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:06.471
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:06.643
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:06.767
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:06.846
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.047
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.070
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.300
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.353
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.353
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.353
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.355
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.363
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.505
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.671
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.791
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:07.993
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.031
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.185
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.639
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.695
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.696
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.696
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.698
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.705
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.728
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:08.809
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.049
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.251
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.264
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.506
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.555
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.824
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.973
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.973
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:09.973
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.027
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.481
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.537
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.538
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.539
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.540
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.547
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.695
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.897
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:10.902
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:11.149
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:11.200
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:11.491
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:11.565
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:11.665
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.120
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.172
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.173
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.173
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.175
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.183
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.585
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.585
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:12.586
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.066
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.471
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.572
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.573
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.573
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.574
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.581
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:13.719
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:14.173
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:14.278
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:14.732
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:15.150
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:15.150
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:15.151
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:15.772
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:15.772
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:15.780
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:16.390
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:16.907
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.007
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.010
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.030
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.031
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.033
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.486
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.515
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.516
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.523
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.948
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.948
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:17.948
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.299
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.300
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.301
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.471
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.473
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.473
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.476
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.929
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.982
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.983
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:19.990
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:20.512
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:20.513
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:20.513
+!MESSAGE Validated 1. Took 183 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:20.695
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:21.420
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:22.078
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:22.079
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:22.080
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.234
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.239
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.239
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.241
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.688
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.689
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.689
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.691
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.873
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.874
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.875
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:23.956
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.039
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.041
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.041
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.043
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.189
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.190
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.190
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.192
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.595
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.697
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.698
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.698
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.699
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:24.706
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:25.061
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:25.061
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:25.062
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:25.794
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:34.235
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:34.417
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:34.563
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:34.766
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:34.793
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:34.807
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:34.934
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.388
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.439
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.439
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.446
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.807
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.808
+!MESSAGE 3 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.808
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:35.939
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:36.095
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:36.350
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:36.546
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:36.601
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:36.803
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:36.831
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:37.004
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:37.042
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:37.219
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:37.672
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:37.733
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:38.145
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:38.146
+!MESSAGE 2 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:38.146
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:39.978
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.187
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.211
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.269
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.270
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.284
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.360
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.381
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.673
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.725
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:40.941
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.183
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.388
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.581
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.588
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.590
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.606
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.693
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:41.813
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:42.267
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:42.441
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:42.750
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:42.750
+!MESSAGE 3 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:42.751
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:43.605
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:43.977
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:44.095
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:44.156
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:44.610
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:44.660
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:44.675
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:44.942
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:45.346
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:45.457
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:45.766
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:45.766
+!MESSAGE 3 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:45.766
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.002
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.004
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.005
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.011
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.061
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.067
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.465
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.571
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.572
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.580
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.882
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.882
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:46.883
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:48.177
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:48.180
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:48.180
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.247
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.365
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.819
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.871
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.872
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.872
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.873
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:50.881
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.235
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.235
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.235
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.430
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.432
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.433
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.767
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:51.897
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.087
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.223
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.369
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.572
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.579
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.773
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.875
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.876
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.876
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.877
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.885
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:52.953
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.051
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.456
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.557
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.557
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.558
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.559
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.566
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:53.759
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:54.040
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:54.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:54.650
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:54.791
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.197
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.297
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.297
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.298
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.299
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.305
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.513
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:55.693
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.085
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.286
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.385
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.587
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.594
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.789
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.891
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.891
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.891
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.892
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:56.899
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:57.256
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:57.256
+!MESSAGE 1 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:57.256
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:58.339
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:58.435
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:58.437
+!MESSAGE >> document/onTypeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:58.449
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:58.852
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:59.268
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:59.268
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:50:59.268
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:00.790
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:00.791
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:00.799
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:01.504
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:02.310
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:02.449
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:02.607
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:02.761
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:02.921
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:03.373
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:03.426
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:03.427
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:03.433
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:03.587
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:03.996
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:04.302
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:04.498
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:04.853
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:05.306
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:05.358
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:05.358
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:05.365
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:05.760
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:05.760
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:05.760
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:06.457
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:06.860
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:06.896
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:07.348
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:07.402
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:07.403
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:07.410
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:07.762
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:07.762
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:07.762
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:09.645
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:10.739
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:10.750
+!MESSAGE begin problem for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:10.750
+!MESSAGE 0 problems reported for /helloworld.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:10.825
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:10.830
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:10.838
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:10.865
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.230
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.241
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.241
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.242
+!MESSAGE >> document/codeLens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.243
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.251
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.253
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.255
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.257
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:11.376
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:14.435
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:14.436
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:51:14.437
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:10.366
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:10.367
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:18.030
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:18.031
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:19.822
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:19.822
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:57.467
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:52:57.467
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:53:00.653
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:53:00.654
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:53:01.834
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:53:01.835
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:53:03.193
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2022-06-10 17:53:03.194
+!MESSAGE >> document/documentHighlight

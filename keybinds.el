@@ -33,8 +33,8 @@
 
 (use-package cua
   :init (cua-mode t)
-  :bind (("<leader> k c" . cua-copy-region)
-         ("<leader> k p" . cua-paste)))
+  :bind (("<leader> n c" . cua-copy-region)
+         ("<leader> n p" . cua-paste)))
 (use-package eval
   :bind (("<leader> h r r" . eval-buffer))) ;;doom-emacs style baby!
 

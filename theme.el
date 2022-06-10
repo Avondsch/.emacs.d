@@ -1,23 +1,39 @@
 ;;themeing for emacs
 
-(scroll-bar-mode -1)
-(tool-bar-mode -1)
-(tooltip-mode -1)
-(set-fringe-mode 10)
-(menu-bar-mode -1)
+
+(setq inhibit-startup-message t)
+
+(scroll-bar-mode -1)        ; Disable visible scrollbar
+(tool-bar-mode -1)          ; Disable the toolbar
+(tooltip-mode -1)           ; Disable tooltips
+(set-fringe-mode 10)        ; Give some breathing room
+
+(menu-bar-mode -1)            ; Disable the menu bar
+
+;; Set up the visible bell
+(setq visible-bell nil)
+
 (column-number-mode)
 (global-display-line-numbers-mode t)
+
+;; Disable line numbers for some modes
+(dolist (mode '(org-mode-hook
+                term-mode-hook
+                shell-mode-hook
+                treemacs-mode-hook
+                eshell-mode-hook))
+  (add-hook mode (lambda () (display-line-numbers-mode 0))))
 
 (defvar efs/default-font-size 100)
 (defvar efs/default-variable-font-size 100)
 
-(set-face-attribute 'default nil :font "Iosevka custom" :height efs/default-font-size)
+(set-face-attribute 'default nil :font "FantasqueSansMono Nerd Font" :height efs/default-font-size)
 
 ;; Set the fixed pitch face
-(set-face-attribute 'fixed-pitch nil :font "Iosevka custom" :height efs/default-font-size)
+(set-face-attribute 'fixed-pitch nil :font "FantasqueSansMono Nerd Font" :height efs/default-font-size)
 
 ;; Set the variable pitch face
-(set-face-attribute 'variable-pitch nil :font "Iosevka custom" :height efs/default-variable-font-size)
+(set-face-attribute 'variable-pitch nil :font "FantasqueSansMono Nerd Font" :height efs/default-variable-font-size)
 
 (defun dw/replace-unicode-font-mapping (block-name old-font new-font)
   (let* ((block-idx (cl-position-if
@@ -47,16 +63,11 @@
   :straight t
   :init (load-theme 'doom-nord))
 
-(straight-use-package
-  '(everforest-hard-dark-theme) :type git :repo "https://git.sr.ht/~theorytoe/everforest-hard-dark-theme")
+(use-package nano-modeline
+:straight t
+:init (setq nano-modeline-mode t)
+:config(setq nano-modeline-position 1))
 
-;;(use-package nano-modeline
-  ;;:straight t
-  ;;:init (setq nano-modeline-mode t)
-;;:config(setq nano-modeline-position 1))
-
-(use-package doom-modeline
-  :straight t)
 
 ;;smooth scrolling (it is a necessity)
 (use-package smooth-scrolling
@@ -65,5 +76,5 @@
 
 
 ;;transparency
-  (set-frame-parameter (selected-frame) 'alpha '(95 . 65))
-  (add-to-list 'default-frame-alist '(alpha . (95 . 65)))
+  (set-frame-parameter (selected-frame) 'alpha '(100 . 100))
+  (add-to-list 'default-frame-alist '(alpha . (100 . 100)))
