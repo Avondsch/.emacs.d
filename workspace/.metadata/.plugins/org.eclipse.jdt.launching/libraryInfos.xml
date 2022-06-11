@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
-    <libraryInfo home="/nix/store/xviczgd2yh3sx2sry2knlg2hdmiyly8r-openjdk-11.0.15+10/lib/openjdk" version="11.0.15"/>
+    <libraryInfo home="/usr/lib/jvm/java-17-amazon-corretto" version="17.0.3"/>
 </libraryInfos>

@@ -1,13 +1,10 @@
 ;;keybindings
-
 ;;Evil (emacs vi layer)
-(setq evil-want-integration t)
-(setq evil-want-keybinding nil)
+
+
 (use-package evil
    :straight t
    :init
-;;  (setq evil-want-integration t)
-;;  (setq evil-want-keybinding nil)
   (evil-mode 1)
   (setq evil-want-C-u-scroll t)
   (setq evil-want-C-i-jump nil)

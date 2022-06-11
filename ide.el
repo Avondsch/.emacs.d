@@ -1,28 +1,66 @@
 ;;IDE configurations for emacs.
 
+
 ;;No littering
 ;;(use-package no-littering)
 ;;(setq auto-save-file-name-transforms
   ;;    `((".*" ,(no-littering-expand-var-file-name "auto-save/") t)))
 
 
-;; Helm, and Company mode
-(global-set-key (kbd "M-x") 'helm-M-x)
-(use-package helm
-  :straight t
-  :init (helm-mode t))
+;; Ivy, and Company mode
+(use-package ivy
+:straight t
+  :diminish
+  :bind (("C-s" . swiper)
+         :map ivy-minibuffer-map
+         ("TAB" . ivy-alt-done)
+         ("C-l" . ivy-alt-done)
+         ("C-j" . ivy-next-line)
+         ("C-k" . ivy-previous-line)
+         :map ivy-switch-buffer-map
+         ("C-k" . ivy-previous-line)
+         ("C-l" . ivy-done)
+         ("C-d" . ivy-switch-buffer-kill)
+         :map ivy-reverse-i-search-map
+         ("C-k" . ivy-previous-line)
+         ("C-d" . ivy-reverse-i-search-kill))
+  :config
+  (ivy-mode 1))
 
-(use-package swiper-helm
- :straight t
+(use-package ivy-rich
+:straight t
+  :after ivy
   :init
-  :bind (("<leader> s d" . swiper-helm)))
+  (ivy-rich-mode 1))
+
+(use-package counsel
+:straight t
+  :bind (("C-M-j" . 'counsel-switch-buffer)
+         :map minibuffer-local-map
+         ("C-r" . 'counsel-minibuffer-history))
+  :custom
+  (counsel-linux-app-format-function #'counsel-linux-app-format-function-name-only)
+  :config
+  (counsel-mode 1))
+
+(use-package ivy-prescient
+:straight t
+  :after counsel
+  :custom
+  (ivy-prescient-enable-filtering nil)
+  :config
+  ;; Uncomment the following line to have sorting remembered across sessions!
+  ;(prescient-persist-mode 1)
+  (ivy-prescient-mode 1))
+
+
 
 (use-package company
 :straight t
   :after lsp-mode
   :hook (lsp-mode . company-mode)
-  :bin
-  d (:map company-active-map
+        (lisp-mode . company-mode)
+  :bind (:map company-active-map
          ("<tab>" . company-complete-selection))
         (:map lsp-mode-map
          ("<tab>" . company-indent-or-complete-common))
@@ -54,9 +92,10 @@
   :commands (lsp lsp-deferred)
   :hook (lsp-mode . efs/lsp-mode-setup)
   :init
-  (setq lsp-keymap-prefix "C-c l")  ;; Or 'C-l', 's-l'
-  :config
-  (lsp-enable-which-key-integration t))
+  (setq lsp-keymap-prefix "C-c l"))
+
+(use-package lsp-ivy
+  :straight t)
 
 (use-package lsp-java
   :straight t)
@@ -124,10 +163,10 @@
     (setq projectile-project-search-path '("~/Projects/Code")))
   (setq projectile-switch-project-action #'projectile-dired))
 
-(use-package helm-projectile
+(use-package counsel-projectile
   :straight t
   :after projectile
-  :config (helm-projectile-mode))
+  :config (ivy-projectile-mode))
 
 
 (use-package treemacs

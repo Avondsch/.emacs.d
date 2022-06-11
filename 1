@@ -1,44 +1,85 @@
-;;for extra configuration that doesnt necessarily fall into themeing, ide, org-mode, and evil-mode configuration.
+;;themeing for emacs
 
 
-;;elcord
-(use-package elcord
-	     :straight t
-	     :init (setq elcord-mode t))
+(setq inhibit-startup-message t)
 
-;;ibuffer
-(use-package ibuffer
+(scroll-bar-mode -1)        ; Disable visible scrollbar
+(tool-bar-mode -1)          ; Disable the toolbar
+(tooltip-mode -1)           ; Disable tooltips
+(set-fringe-mode 10)        ; Give some breathing room
+
+(menu-bar-mode -1)            ; Disable the menu bar
+
+;; Set up the visible bell
+(setq visible-bell nil)
+
+(column-number-mode)
+(global-display-line-numbers-mode t)
+
+;; Disable line numbers for some modes
+(dolist (mode '(org-mode-hook
+                term-mode-hook
+                shell-mode-hook
+                treemacs-mode-hook
+                eshell-mode-hook))
+  (add-hook mode (lambda () (display-line-numbers-mode 0))))
+
+(defvar efs/default-font-size 100)
+(defvar efs/default-variable-font-size 100)
+
+
+(set-face-attribute 'default nil :font "FantasqueSansMono Nerd Font" :height efs/default-font-size)
+
+;; Set the fixed pitch face
+(set-face-attribute 'fixed-pitch nil :font "FantasqueSansMono Nerd Font" :height efs/default-font-size)
+
+;; Set the variable pitch face
+(set-face-attribute 'variable-pitch nil :font "FantasqueSansMono Nerd Font" :height efs/default-variable-font-size)
+
+(defun dw/replace-unicode-font-mapping (block-name old-font new-font)
+  (let* ((block-idx (cl-position-if
+                         (lambda (i) (string-equal (car i) block-name))
+                         unicode-fonts-block-font-mapping))
+         (block-fonts (cadr (nth block-idx unicode-fonts-block-font-mapping)))
+         (updated-block (cl-substitute new-font old-font block-fonts :test 'string-equal)))
+    (setf (cdr (nth block-idx unicode-fonts-block-font-mapping))
+          `(,updated-block))))
+
+(use-package unicode-fonts
   :straight t
-  :init (setq ibuffer-mode t)
   :config
- (setq ibuffer-saved-filter-groups
-      '(("main"
-         ("modified" (and
-                      (modified . t)
-                      (visiting-file . t)))
-         ("code" (or (filename . "/projects/")
-                     (filename . "/git-repos/")
-                     (filename . "/code/")))
-        ;; ("org" (mode . org-mode))
-         ("dired" (mode . dired-mode))
-         ("help" (or (name . "\*Help\*")
-                     (name . "\*Apropos\*")
-                     (name . "\*info\*")
-                     (mode . help-mode)))
-         ("internal" (name . "^\*.*$"))
-         ("other" (name . "^.*$")))))
+  ;; Fix the font mappings to use the right emoji font
+  (mapcar
+    (lambda (block-name)
+      (dw/replace-unicode-font-mapping block-name "Apple Color Emoji" "Noto Color Emoji"))
+    '("Dingbats"
+      "Emoticons"
+      "Miscellaneous Symbols and Pictographs"
+      "Transport and Map Symbols"))
+  (unicode-fonts-setup))
 
-  (add-hook 'ibuffer-mode-hook
-          (lambda ()
-            (ibuffer-switch-to-saved-filter-groups "main")))
 
-  :bind
-  (("<leader> b b" . ibuffer)))
 
-(use-package all-the-icons-ibuffer
+;;theme and modeline
+(use-package doom-themes
+  :straight t)
+
+(use-package gruvbox-theme
   :straight t
-  :ensure t
-  :init (all-the-icons-ibuffer-mode))
+  :init (load-theme 'gruvbox-light-soft))
 
-;;which key
+(use-package nano-modeline
+:straight t
+:init (nano-modeline-mode)
+:config(setq nano-modeline-position 1))
 
+
+;;smooth scrolling (it is a necessity)
+(use-package smooth-scrolling
+  :straight t
+  :init (setq smooth-scrolling-mode t))
+
+
+;;transparency
+  (set-frame-parameter (selected-frame) 'alpha '(100 . 100))
+  (add-to-list 'default-frame-alist '(alpha . (100 . 100)))

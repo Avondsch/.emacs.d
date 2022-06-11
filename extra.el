@@ -1,10 +1,12 @@
 ;;for extra configuration that doesnt necessarily fall into themeing, ide, org-mode, and evil-mode configuration.
 
+;; Make gc pauses faster by decreasing the threshold.
+(setq gc-cons-threshold (* 2 1000 1000))
 
 ;;elcord
 (use-package elcord
 	     :straight t
-	     :init elcord-mode)
+	     :init (elcord-mode))
 
 ;;ibuffer
 (use-package ibuffer
@@ -75,3 +77,12 @@
     (setq eshell-visual-commands '("htop" "zsh" "vim")))
 
   (eshell-git-prompt-use-theme 'powerline))
+
+;;vterm
+(use-package vterm
+:straight t
+  :commands vterm
+  :config
+  (setq vterm-shell "zsh")                       ;; Set this to customize the shell to launch
+  (setq vterm-max-scrollback 10000))
+

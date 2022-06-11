@@ -27,6 +27,7 @@
 (defvar efs/default-font-size 100)
 (defvar efs/default-variable-font-size 100)
 
+
 (set-face-attribute 'default nil :font "FantasqueSansMono Nerd Font" :height efs/default-font-size)
 
 ;; Set the fixed pitch face
@@ -58,16 +59,19 @@
   (unicode-fonts-setup))
 
 
+
 ;;theme and modeline
 (use-package doom-themes
   :straight t
-  :init (load-theme 'doom-nord))
+  :init(load-theme 'doom-tomorrow-night))
 
-(use-package nano-modeline
+(use-package all-the-icons
+  :straight t)
+
+(use-package doom-modeline
 :straight t
-:init (setq nano-modeline-mode t)
-:config(setq nano-modeline-position 1))
-
+  :init (doom-modeline-mode 1)
+  :custom ((doom-modeline-height 30)))
 
 ;;smooth scrolling (it is a necessity)
 (use-package smooth-scrolling
